@@ -1,0 +1,4 @@
+enum PatternEnums
+{
+    Decorator
+}
