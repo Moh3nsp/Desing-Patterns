@@ -1,11 +1,12 @@
 namespace DecoratorPattern
 {
-    public class RunDecoratorPattern:RunPatterns
+    public class RunDecoratorPattern : RunPatterns
     {
-        public  void Run()
+        public void Run()
         {
-            ConcreteComponent concreteComponent = new ConcreteComponent();    
-            concreteComponent.SendMail();        
+            ConcreteComponent concreteComponent = new ConcreteComponent();
+            DecoratorConcrete decorator= new DecoratorConcrete(concreteComponent);
+            decorator.PreviousOperators();
         }
     }
 }
