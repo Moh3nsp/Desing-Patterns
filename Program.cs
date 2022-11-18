@@ -1,2 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+PatternEnums Current_Pattern = PatternEnums.Decorator;
+PatternRunnerList.Patterns[(int)Current_Pattern].Run();
+Console.ReadLine();
