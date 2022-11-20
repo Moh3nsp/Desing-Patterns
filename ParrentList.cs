@@ -13,5 +13,6 @@ public class PatternRunnerList
     {
         Patterns= new Dictionary<int, RunPatterns>();
         Patterns[(int)PatternEnums.Decorator] = new DecoratorPattern.RunDecoratorPattern();
+        Patterns[(int)PatternEnums.Adapter_Wrapper] = new Structural.AdapterPattern.RunAdapterPattern();
     }
 }

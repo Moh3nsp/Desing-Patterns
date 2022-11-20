@@ -1,0 +1,4 @@
+this Pattern make it easier to maintain the legacy code
+and using these classes along modern classes.
+In fact This pattern allows classes that implement different interfaces to be used without problems. 
+It converts the incompatible interface into a compatible interface that can be used by the client. 

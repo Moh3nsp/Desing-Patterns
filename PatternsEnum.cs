@@ -1,4 +1,6 @@
 enum PatternEnums
 {
-    Decorator
+    Decorator,
+    Adapter_Wrapper
+
 }
