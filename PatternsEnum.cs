@@ -1,6 +1,6 @@
 enum PatternEnums
 {
     Decorator,
-    Adapter_Wrapper
-
+    Adapter_Wrapper_ClassAdapter,
+    Adapter_Wrapper_ObjectAdapter
 }

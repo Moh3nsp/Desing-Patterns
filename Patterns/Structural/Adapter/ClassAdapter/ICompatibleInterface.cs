@@ -1,8 +1,7 @@
-namespace Structural.AdapterPattern{
-
+namespace Structural.AdapterPattern.ClassAdapter
+{
     public interface ICompatibleInterface
     {
         void SpecificlOperation();
     }
-
 }

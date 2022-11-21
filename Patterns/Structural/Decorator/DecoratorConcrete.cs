@@ -1,12 +1,10 @@
-namespace DecoratorPattern
+namespace Structural.DecoratorPattern
 {
     public class DecoratorConcrete : Decorator
     {
         public DecoratorConcrete(Component component) : base(component)
         {
-
         }
-
         public override void PreviousOperators()
         {
             base.PreviousOperators();

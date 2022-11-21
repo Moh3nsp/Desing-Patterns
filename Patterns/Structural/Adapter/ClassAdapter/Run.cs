@@ -1,4 +1,4 @@
-namespace Structural.AdapterPattern
+namespace Structural.AdapterPattern.ClassAdapter
 {
     public class RunAdapterPattern : RunPatterns
     {

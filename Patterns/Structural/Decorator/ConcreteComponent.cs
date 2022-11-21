@@ -1,7 +1,6 @@
-namespace DecoratorPattern
+namespace Structural.DecoratorPattern
 {
-
-    public class ConcreteComponent : Component 
+    public class ConcreteComponent : Component
     {
         public override void PreviousOperators()
         {
