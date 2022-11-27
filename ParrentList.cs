@@ -14,5 +14,6 @@ public class PatternRunnerList
         Patterns[(int)PatternEnums.Decorator] = new Structural.DecoratorPattern.RunDecoratorPattern();
         Patterns[(int)PatternEnums.Adapter_Wrapper_ClassAdapter] = new Structural.AdapterPattern.ClassAdapter.RunAdapterPattern();
         Patterns[(int)PatternEnums.Adapter_Wrapper_ObjectAdapter] = new Structural.AdapterPattern.ObjectiveAdapter.RunAdapterPattern();
+        Patterns[(int)PatternEnums.Singletone] = new Design_Patterns.Patterns.Creational.Singletone.RunSingletonePattern();
     }
 }
