@@ -1,4 +1,4 @@
-namespace Design_Patterns.Patterns.Creational.Singletone
+namespace Patterns.Creational.Singletone
 {
     public class RunSingletonePattern : RunPatterns
     {
@@ -6,7 +6,7 @@ namespace Design_Patterns.Patterns.Creational.Singletone
         {
             var obj1 = Singletone.GetInstance();
             var obj2 = Singletone.GetInstance();
-            Console.WriteLine(obj1 == obj2);
+            Console.WriteLine("Both objects are equal : " + (obj1 == obj2));
         }
     }
 }

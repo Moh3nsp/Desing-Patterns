@@ -1,4 +1,4 @@
-namespace Design_Patterns.Patterns.Creational.Singletone
+namespace Patterns.Creational.Singletone
 {
     public class Singletone
     {
