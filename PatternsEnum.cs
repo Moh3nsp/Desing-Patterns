@@ -4,5 +4,6 @@ enum PatternEnums
     Adapter_Wrapper_ClassAdapter,
     Adapter_Wrapper_ObjectAdapter,
     Singletone,
-    Builder
+    Builder,
+    Observer
 }
